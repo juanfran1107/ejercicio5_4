@@ -5,10 +5,20 @@
  */
 package ejercicio5_4;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author portatil de JuanFran
  */
 public class CCuenta {
+    
+    int nroCuenta;
+    int saldo;
+    int limite;
+    String fecha_apertura;
+    ArrayList<CTarjeta>lista_tarjetas;
+    
+    
     
 }

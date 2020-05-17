@@ -10,5 +10,5 @@ package ejercicio5_4;
  * @author portatil de JuanFran
  */
 public class CGestor {
-    
+    int nro_emp;
 }

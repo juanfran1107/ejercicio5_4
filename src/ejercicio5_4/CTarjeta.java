@@ -11,4 +11,7 @@ package ejercicio5_4;
  */
 public class CTarjeta {
     
+    int nro_tarjeta;
+    int limite;
+    
 }

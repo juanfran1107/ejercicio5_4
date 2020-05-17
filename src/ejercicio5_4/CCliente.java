@@ -5,10 +5,20 @@
  */
 package ejercicio5_4;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author portatil de JuanFran
  */
 public class CCliente {
+    
+    String nombre;
+    String apellido;
+    String direccion;
+    String DNI;
+    int telefono;
+    int edad;
+    ArrayList<CCuenta>lista_cuentas;
     
 }
