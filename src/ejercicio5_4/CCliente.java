@@ -21,4 +21,19 @@ public class CCliente {
     int edad;
     ArrayList<CCuenta>lista_cuentas;
     
+    //CONSTRUCTOR
+    CCliente(String nom,String ape,int edad, String dni,String direccion, int telefono,ArrayList<CCuenta>cuentas){
+        this.nombre=nom;
+        this.apellido=ape;
+        this.edad=edad;
+        this.DNI=dni;
+        this.direccion=direccion;
+        this.telefono=telefono;
+        this.lista_cuentas=cuentas;
+    }
+    
+    
+    //METODOS
+    
+    
 }
