@@ -11,7 +11,35 @@ package ejercicio5_4;
  */
 public class CTarjeta {
     
-    int nro_tarjeta;
-    int limite;
+   private int nro_tarjeta;
+   private int limite;
     
+   //CONSTRUCTOR
+   
+   CTarjeta(int numero, int limite){
+       this.nro_tarjeta=numero;
+       this.limite=limite;
+   }
+   
+   //GETTER Y SETTER
+
+    public void setNro_tarjeta(int nro_tarjeta) {
+        this.nro_tarjeta = nro_tarjeta;
+    }
+
+    public void setLimite(int limite) {
+        this.limite = limite;
+    }
+
+    public int getNro_tarjeta() {
+        return nro_tarjeta;
+    }
+
+    public int getLimite() {
+        return limite;
+    }
+   
+   
+   
+   
 }
