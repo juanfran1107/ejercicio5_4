@@ -27,6 +27,8 @@ public class CCuenta {
         this.nroCuenta=Ncuenta;
         this.saldo=saldo;
         this.limite=limite;
+        this.fecha_apertura=fechaApertura;
+        this.lista_tarjetas=tarjetas;
     }
 
     //GETTER Y SETTER

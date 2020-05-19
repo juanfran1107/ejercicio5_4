@@ -12,13 +12,13 @@ package ejercicio5_4;
 public class CTarjeta {
     
    private int nro_tarjeta;
-   private int limite;
+   private int limiteRetirada;
     
    //CONSTRUCTOR
    
    CTarjeta(int numero, int limite){
        this.nro_tarjeta=numero;
-       this.limite=limite;
+       this.limiteRetirada=limite;
    }
    
    //GETTER Y SETTER
@@ -28,7 +28,7 @@ public class CTarjeta {
     }
 
     public void setLimite(int limite) {
-        this.limite = limite;
+        this.limiteRetirada = limite;
     }
 
     public int getNro_tarjeta() {
@@ -36,7 +36,7 @@ public class CTarjeta {
     }
 
     public int getLimite() {
-        return limite;
+        return limiteRetirada;
     }
    
    
